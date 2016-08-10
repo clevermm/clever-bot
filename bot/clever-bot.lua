@@ -233,7 +233,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {183823734},--Sudo users
+    sudo_users = {183823734,224661370,},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Clever Bot v1]],
     help_text_realm = [[
