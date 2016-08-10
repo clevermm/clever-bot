@@ -195,7 +195,7 @@ function load_config( )
   local f = io.open('./data/config.lua', "r")
   -- If config.lua doesn't exist
   if not f then
-    print (فایل کانفیگ جدید ساخته شد: data/config.lua")
+    print ("Created new config file: data/config.lua")
     create_config()
   else
     f:close()
@@ -233,9 +233,9 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {183823734,224661370,},--Sudo users
+    sudo_users = {183823734,224661370},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Clever Bot v1]],
+    about_text = [[Clever Bot v1],
     help_text_realm = [[
 Realm Commands:
 
@@ -617,7 +617,7 @@ end
 -- Enable plugins in config.json
 function load_plugins()
   for k, v in pairs(_config.enabled_plugins) do
-    print("بارگذاری پلاگن ها", v)
+    print("Loading plugin", v)
 
     local ok, err =  pcall(function()
       local t = loadfile("plugins/"..v..'.lua')()
