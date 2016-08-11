@@ -2,7 +2,7 @@
 
 اوپن شده و نوشته شده توسط 
 
-[negative](https://telegram.me/cleverm)
+[clever](https://telegram.me/cleverm)
 
 قدرت گرفته از 
 
@@ -27,7 +27,7 @@ TeleSeed !
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 ```
 ```sh
-git clone https://github.com/taylor-team/taylor-bot -b supergroups
+git clone https://github.com/clevermm/clever-bot
 cd taylor-bot 
 ./launch.sh install 
 ./launch.sh # add phone
