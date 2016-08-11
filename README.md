@@ -28,7 +28,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```
 ```sh
 git clone https://github.com/clevermm/clever-bot
-cd taylor-bot 
+cd clever-bot
 ./launch.sh install 
 ./launch.sh # add phone
 ```
